@@ -1,0 +1,23 @@
+
+body{
+    
+    background-color:black;
+}
+.popupbox{
+    position: absolute;height: fit-content;width: 300px;top: 0;left:50%;
+     
+    transform: translate(-50%,-50%) scale(0.1);visibility: hidden;
+    text-align: center;background-color: white;border-radius: 20px;padding-bottom: 10px;padding-left: 20px;padding-right: 20px;
+    transition: transform 0.4s,top 0.4s;
+}
+img{
+    display: block;height: 100px;width: 100px;margin: auto;margin-top: -50px;
+}
+button{
+    width: 250px;background-color: green;color: white;border: none;border-radius: 10px;
+}
+.active{visibility: visible;
+    left: 50%;top:50%;
+    transform: translate(-50%,-50%) scale(1);
+}
+
